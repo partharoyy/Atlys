@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputPlaceholderColor::placeholder {
+  @apply text-[#7F8084] text-[1rem] font-normal leading-[1.21rem] w-[70%];
+}
+
+.leading1 {
+  @apply leading-[1.21rem];
+}
+
+.leading2 {
+  @apply leading-[1.36125rem];
+}
+
+.leading3 {
+  @apply leading-[1.21rem];
+}
+
+.leading4 {
+  @apply leading-[1.5rem];
+}
+
+.leading5 {
+  @apply leading-[2.118125rem];
+}
+
+.leading6 {
+  @apply leading-[1.05875rem];
+}
+
+.leading7 {
+  @apply leading-[0.9075rem];
+}
+
+.leading8 {
+  @apply leading-[0.9075rem];
+}
